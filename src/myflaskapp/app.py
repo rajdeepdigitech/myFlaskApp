@@ -6,6 +6,6 @@ app = Flask(__name__)
 def landing_page():
     return "<p>Welcome to my Flask application!</p>"
 
-@app.route("/masturbate")
-def masturbation():
-    return "<p>Masturbating is fun!</p>"
+@app.route("/about")
+def about():
+    return "<p>This is my about page!</p>"
