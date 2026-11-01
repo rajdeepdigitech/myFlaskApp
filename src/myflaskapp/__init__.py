@@ -5,3 +5,4 @@ app = Flask(__name__)
 @app.route("/")
 def landing_page():
     return "<p>Welcome to my Flask application!</p>"
+
